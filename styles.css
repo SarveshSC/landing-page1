@@ -1,0 +1,142 @@
+body{
+    font-family: Roboto,sans-serif;
+    height: 100vh;
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+}
+.header, footer{
+    background-color: #1f2937;
+}
+.header{
+    padding: 30px 100px 100px 100px;
+}
+footer{
+    height: 100px;
+}
+.htop{
+    display: flex;
+}
+.hleft{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.hright{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 20px;
+    
+}
+.hcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.signup{
+    width: 500px;
+}
+h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.hbutton{
+    border: 0;
+}
+.mainlogo{
+    height: 250px;
+    width: 500px;
+}
+.image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+.m1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 80px 300px 80px;
+}
+h3{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+.m3{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+.m3content{
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 600px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.m3text{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+h4{
+    font-weight: bold;
+    margin: 0;
+}
+footer{
+    color: #e5e7eb;
+    text-align: center;
+    padding: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    padding: 100px;
+}
+.info{
+    max-width: 300px;
+}
+.infologo{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+.text{
+    font-size: 18px;
+    font-weight: 0;
+}
+
